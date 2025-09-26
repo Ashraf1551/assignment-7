@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div className="bg-black text-white">
       <Container>
-        {/* responsive grid: 1 col on xs, 2 on sm, 3 on md, 5 on lg+ */}
-        <footer className="p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start">
+        {/* responsive grid with horizontal padding for small screens */}
+        <footer className="py-10 px-4 sm:px-6 md:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start">
           <nav className="space-y-3">
             <h1 className="font-bold text-2xl">CS — Ticket System</h1>
             <p className="text-sm leading-relaxed">

@@ -45,23 +45,27 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <SHowCard resolve={resolve} inProgress={inProgress} />
-      <CustomerTickets
-        setClicked={setClicked}
-        clicked={clicked}
-        inProgress={inProgress}
-        setInPorgress={setInPorgress}
-        cardData={cardData || []}
-        setResolve={setResolve}
-        resolve={resolve}
-        complete={complete}
-        setComplete={setComplete}
-        removeCard={removeCard}
-        filterCard={filterCard}
-        setFilterCard={setFilterCard}
-        removeTicketFromData={removeTicketFromData}
-      />
+      {/* horizontal margins for entire app except Footer */}
+      <div className="px-4 sm:px-6 md:px-8">
+        <Navbar />
+        <SHowCard resolve={resolve} inProgress={inProgress} />
+        <CustomerTickets
+          setClicked={setClicked}
+          clicked={clicked}
+          inProgress={inProgress}
+          setInPorgress={setInPorgress}
+          cardData={cardData || []}
+          setResolve={setResolve}
+          resolve={resolve}
+          complete={complete}
+          setComplete={setComplete}
+          removeCard={removeCard}
+          filterCard={filterCard}
+          setFilterCard={setFilterCard}
+          removeTicketFromData={removeTicketFromData}
+        />
+      </div>
+
       <Footer />
     </div>
   );
