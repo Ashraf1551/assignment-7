@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still cannot access.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Transaction Not Processed",
+    "description": "Customer reported that their payment failed even though funds were deducted from their bank account.",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": 1003,
+    "title": "Website Loading Slowly",
+    "description": "Customer experiencing very slow load times when accessing the dashboard.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1004,
+    "title": "App Crashes on Startup",
+    "description": "Mobile app crashes immediately after launching on Android devices.",
+    "customer": "Emily Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1005,
+    "title": "Unable to Update Profile",
+    "description": "Customer cannot update their profile details. The Save button is not working.",
+    "customer": "David Wilson",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": 1006,
+    "title": "Password Reset Email Not Received",
+    "description": "Customer requested a password reset but did not receive any email.",
+    "customer": "Sophia Martinez",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": 1007,
+    "title": "Error 500 on Checkout Page",
+    "description": "Customer encountered a server error when trying to complete their order.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-01-26"
+  },
+  {
+    "id": 1008,
+    "title": "Two-Factor Authentication Not Working",
+    "description": "Customer reports that the 2FA code is not being accepted when logging in.",
+    "customer": "Olivia Taylor",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": 1009,
+    "title": "Unable to Download Invoice",
+    "description": "Customer is unable to download their monthly invoice PDF from the billing section.",
+    "customer": "Daniel Thomas",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-30"
+  },
+  {
+    "id": 1010,
+    "title": "Notifications Not Received",
+    "description": "Customer reports they are not receiving push or email notifications.",
+    "customer": "Isabella Garcia",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-02-01"
+  }
+]
